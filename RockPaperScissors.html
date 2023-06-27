@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
     <title>RockPaperScissors</title>
 </head>
 <body>
-    <h2> Play from the console from now will create a whole web page soon</h2>
+    <div class="container">
+        <img  src="https://preview.redd.it/7wx7vq86k4d71.jpg?auto=webp&s=8a9914b568703deb06380863c5c855b121f2fe6d"
+        alt="rock paper scissors pic">
+        <h2>FIRST TO 5 WINS!</h2>
+        <div class="btnContainer">
+            <button id="rock">ROCK</button>
+            <button id="paper">PAPER</button>
+            <button id="scissors">SCISSORS</button>
+        </div>
+        <div class="score">
+            <h3 id="playerScore">Player Score:</h3>
+            <h3 id="computerScore">Computer Score:</h3>
+        </div>
+        <div id="result">
+            <p>Result:</p>
+        </div>
+        <div class="popup" id="popup">
+            <div class="popupContent">
+            <span id="closeBtn">&times;</span>
+            <h2 id="winner">hello</h2>
+            <button  id="playAgain"> Play Again</button>
+            <button  id="exit">Exit</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
