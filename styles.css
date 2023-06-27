@@ -1,3 +1,74 @@
-.container{
+body{
     background-color: grey;
+    text-align: center;
+    align-items: center;
 }
+h2{
+    font-family: cursive ;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+img{
+    margin-top: 30px;
+    justify-content: center;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.score, .result, #result, #winner{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: cursive;
+    font-size: 20px;
+}
+button{
+    margin:auto;
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: cursive ;  
+}
+.playAgain button{
+    margin-left: -30px;
+}
+.modal{
+    width:50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup{
+    width:400px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    display: none;
+   
+    
+}
+.popup button{
+   display: inline; 
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#closeBtn{
+color: black;
+float: right;
+}
+#closeBtn:hover, .closeBtn:focus{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
